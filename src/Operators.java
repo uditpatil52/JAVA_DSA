@@ -17,7 +17,7 @@ public class Operators {
 //        System.out.println(a==b);
 //        System.out.println(a<b);
 
-        //logical op
+        //LOGICAL OP
 //        boolean result = (5>3)&&(4>7);
 //        boolean result1 = (5>3)&&(4<7);
 //        System.out.println(result);
@@ -30,11 +30,27 @@ public class Operators {
 //        System.out.println(result3);
 //        System.out.println(result4);
 
-        boolean result5 = !(2>4);
-        System.out.println(result5);
+//        boolean result5 = !(2>4);
+//        System.out.println(result5);
 
+        //ASSIGNMENT OP
 
+        //SHORTAND
+        int s = 25;
+        s+=4;
+        System.out.println(s);
 
+        s-=5;
+        System.out.println(s);
+
+        s*=3;
+        System.out.println(s);
+
+        s/=2;
+        System.out.println(s);
+
+        s%=3;
+        System.out.println(s);
     }
 
 }
