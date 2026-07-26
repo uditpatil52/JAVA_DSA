@@ -59,21 +59,95 @@ public class Conditions {
 //        }
 
         //Q6 leap year or not
-        int year = 2024;
+//        int year = 2024;
+//
+//        if (year % 4 == 0) {
+//            if (year % 100 == 0) {
+//                if (year % 400 == 0) {
+//                    System.out.println("Leap year");
+//                } else {
+//                    System.out.println("Not a leap year");
+//                }
+//            } else {
+//                System.out.println("Leap year");
+//            }
+//        } else {
+//            System.out.println("Not a leap year");
+//        }
 
-        if (year % 4 == 0) {
-            if (year % 100 == 0) {
-                if (year % 400 == 0) {
-                    System.out.println("Leap year");
-                } else {
-                    System.out.println("Not a leap year");
-                }
-            } else {
-                System.out.println("Leap year");
-            }
-        } else {
-            System.out.println("Not a leap year");
+        //SWITCH STATEMENT
+      //  Q1. Write a program using switch that takes a number from 1-7 and prints the corresponding day name (1 = Monday, 2 = Tuesday, etc.)
+//        int day = 6;
+//
+//        switch(day){
+//            case 1 :
+//                System.out.println("mon");
+//                break;
+//            case 2:
+//                System.out.println("tues");
+//                break;
+//            case 3 :
+//                System.out.println("wed");
+//                break;
+//            case 4 :
+//                System.out.println("thurs");
+//                break;
+//            case 5 :
+//                System.out.println("fri");
+//                break;
+//            case 6 :
+//                System.out.println("sat");
+//                break;
+//            case 7:
+//                System.out.println("sun");
+//                break;
+//            default:
+//                System.out.println("invalid");
+//        }
+
+        //Q2. Write a program using switch that takes a month number (1-12) and prints the number of days in that month. (Assume February has 28 days, ignore leap year for now)
+//        int month = 8;
+//
+//        switch(month){
+//            case 1 ,3,5,7,8,10,12-> System.out.println("31 days of month");
+//            case 4,6,9,11-> System.out.println("30 days of month");
+//            case 2-> System.out.println("28 days of month");
+//            default -> System.out.println("invalid");
+//        }
+
+        //Q3. Write a program using switch that takes a character grade (A, B, C, D, F) and prints a message:
+        //
+        //A → "Excellent"
+        //B → "Good"
+        //C → "Average"
+        //D → "Below Average"
+        //F → "Fail"
+
+//        char grade = 'C';
+//        switch(grade){
+//            case 'A'-> System.out.println("excellent");
+//            case 'B'-> System.out.println("good");
+//            case 'C'-> System.out.println("average");
+//            case 'D'-> System.out.println("below average");
+//            case 'F'-> System.out.println("fail");
+//            default -> System.out.println("invalid grade");
+//        }
+
+        //Q4. Write a simple calculator using switch — take two numbers and an operator (+, -, *, /) as input, and print the result based on the operator.
+
+        char op = '*';
+        int a = 23;
+        int b = 34;
+
+        switch(op){
+            case '+'-> System.out.println(a+b);
+            case '-'-> System.out.println(a-b);
+            case '*'-> System.out.println(a*b);
+            case '/'-> System.out.println(a/b);
+            default -> System.out.println("invalid operator , try again ");
+
         }
+
 
     }
 }
