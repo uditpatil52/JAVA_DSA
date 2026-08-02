@@ -61,3 +61,64 @@
 //        return greeting;
 //    }
 //}
+
+ //PARAMETER
+//
+//public class Methods {
+//    public static void main(String[] args) {
+//     int ans = sum3(4,9);
+//        System.out.println(ans);
+//    }
+//    static int sum3(int a , int b ){
+//        int sum = a + b;
+//        return sum ;
+//    }
+//}
+
+//
+//public class Methods {
+//    public static void main(String[] args) {
+//        String ans = greet("udit");
+//        System.out.println(ans);
+//    }
+//    static String greet(String name){
+//        String message = "hello " + name ;
+//        return message;
+//    }
+//}
+
+//
+//import java.util.Scanner;
+//
+//public class Methods {
+//    public static void main(String[] args) {
+//        Scanner inp = new Scanner(System.in);
+//        System.out.println("Enter your name : ");
+//        String name = inp.nextLine();
+//        String ans = greet( name );
+//        System.out.println(ans);
+//    }
+//    static String greet(String name){
+//        String message = "hello " + name ;
+//        return message;
+//    }
+//}
+
+//q SWAP TWO NUMBERS
+
+
+public class Methods {
+    public static void main(String[] args) {
+        int a = 45;
+        int b =  34;
+
+        //swap num code
+        int temp = a ;
+        a = b ;
+        b = temp ;
+
+        System.out.println(a);
+        System.out.println(b);
+
+    }
+}
